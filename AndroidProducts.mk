@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_dubai.mk
+    $(LOCAL_DIR)/voltage_dubai.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_dubai-user \
-    arrow_dubai-userdebug \
-    arrow_dubai-eng
+    voltage_dubai-user \
+    voltage_dubai-userdebug \
+    voltage_dubai-eng

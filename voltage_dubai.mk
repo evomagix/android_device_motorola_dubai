@@ -21,12 +21,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from dubai device
 $(call inherit-product, device/motorola/dubai/device.mk)
 
-# Inherit some common ArrowOS stuff.
+# Inherit some common Voltage stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_PIXEL_CHARGER := true
-$(call inherit-product, vendor/arrow/config/common.mk)
+$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
-PRODUCT_NAME := arrow_dubai
+PRODUCT_NAME := voltage_dubai
 PRODUCT_DEVICE := dubai
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_BRAND := motorola
@@ -40,4 +40,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 BUILD_FINGERPRINT := motorola/dubai_g/dubai:13/T1RD33.116-33-3/a0c97-f829db:user/release-keys
 
-DEVICE_MAINTAINER := Adithya (ghostrider_reborn)
+# Voltage
+WITH_GMS := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_ENABLE_BLUR := true
+TARGET_SUPPORTS_QUICK_TAP := true
+EXTRA_UDFPS_ANIMATIONS := true
