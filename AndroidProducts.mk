@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/voltage_dubai.mk
+    $(LOCAL_DIR)/lineage_dubai.mk
 
 COMMON_LUNCH_CHOICES := \
-    voltage_dubai-user \
-    voltage_dubai-userdebug \
-    voltage_dubai-eng
+    lineage_dubai-user \
+    lineage_dubai-userdebug \
+    lineage_dubai-eng
