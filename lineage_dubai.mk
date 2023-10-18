@@ -21,6 +21,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from dubai device
 $(call inherit-product, device/motorola/dubai/device.mk)
 
+# Firmware
+$(call inherit-product, vendor/motorola/firmware/dubai/config.mk)
+
 # Inherit some common Alpha stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_PIXEL_CHARGER := true
