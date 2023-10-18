@@ -33,7 +33,7 @@ PRODUCT_NAME := lineage_dubai
 PRODUCT_DEVICE := dubai
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_BRAND := motorola
-PRODUCT_MODEL := motorola edge 30
+PRODUCT_MODEL := edge 30
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
