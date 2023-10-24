@@ -55,6 +55,9 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 # Recovery
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 90
 
+# Disable sparse on all filesystem images
+TARGET_USERIMAGES_SPARSE_EROFS_DISABLED := true
+
 # Security
 VENDOR_SECURITY_PATCH := 2023-04-01
 
